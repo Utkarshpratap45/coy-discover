@@ -1,0 +1,5 @@
+node_modules/
+dist/
+server/state.json
+server/state.json.tmp
+.env
