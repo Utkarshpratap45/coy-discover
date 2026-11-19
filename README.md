@@ -37,15 +37,12 @@ These are suggestions based on the assignment's described Coy flows and privacy 
 
 ## Publish to GitHub
 
-Create a new public repository on GitHub, then from this directory run:
+The project can be published by committing and pushing changes to the `main` branch:
 
 ```bash
-git init
 git add .
 git commit -m "Build Coy Discover demo"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
 git push -u origin main
 ```
 
-Replace the remote URL with your repository's URL. Profile photos are served from Unsplash and require an internet connection.
+Profile photos are served from Unsplash and require an internet connection.
